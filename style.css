@@ -1,0 +1,72 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Global */
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.main-header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.main-header img {
+  width: 40%;
+  max-width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Quote */
+.quote-section {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Media */
+.media-section video {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* About */
+.about-box {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Music */
+.music-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  padding: 30px 0;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
